@@ -1,0 +1,50 @@
+{
+  "name": "react-vite-starter",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Jonathan Manas <jonathanmanas@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint:js": "eslint 'src/**/*.{js,ts,tsx}'; exit 0",
+    "lint:js:fix": "eslint 'src/**/*.{js,ts,tsx}' --fix; exit 0",
+    "lint:css": "stylelint 'src/**/*.scss'; exit 0",
+    "lint:css:fix": "stylelint 'src/**/*.scss' --fix; exit 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.54.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sonarjs": "^0.18.0",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.3",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-selector-bem-pattern": "^2.1.1",
+    "typescript": "*",
+    "vite": "^4.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
